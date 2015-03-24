@@ -1,5 +1,6 @@
 # read in data
 import pandas as pd
+from numpy import array
 
 def read_train():
 	train = pd.read_csv('train.csv')
